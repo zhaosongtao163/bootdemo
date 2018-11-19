@@ -1,6 +1,7 @@
 package com.stzhao.service;
 
 import com.stzhao.dao.test.TestMapper;
+import com.stzhao.entity.TestPO;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Service;
@@ -16,7 +17,7 @@ public class TestService implements TestMapper {
 
 
     @Override
-    public List queryAll() {
+    public List<TestPO> queryAll() {
         return testMapper.queryAll();
     }
 }

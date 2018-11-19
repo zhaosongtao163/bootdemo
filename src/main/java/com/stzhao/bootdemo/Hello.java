@@ -1,5 +1,7 @@
 package com.stzhao.bootdemo;
 
+import com.alibaba.fastjson.JSON;
+import com.stzhao.entity.TestPO;
 import com.stzhao.service.TestService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -22,10 +24,12 @@ public class Hello {
     public String hello() {
 
 
-    List list = testService.queryAll();
+    List<TestPO> list = testService.queryAll();
 
         logger.info("hehehehe");
-        return "laoZ2";
+
+
+        return "laoZ2"+JSON.toJSONString(list);
 
 
 
