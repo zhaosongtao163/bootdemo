@@ -9,6 +9,6 @@ public class WebControl {
 
     @GetMapping("/hello")
     public String hello() {
-        return "laoZ1";
+        return "laoZ1234";
     }
 }
