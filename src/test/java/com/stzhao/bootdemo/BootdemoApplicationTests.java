@@ -15,9 +15,9 @@ public class BootdemoApplicationTests {
 		
 // 		
 		
-		System.out.println("az");
+		System.out.println("az666777");
 // 		
-		
+		System.out.println(3333);
 		
 //		aaa
 		
