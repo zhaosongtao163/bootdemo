@@ -12,7 +12,7 @@ public class BootdemoApplicationTests {
 	@Test
 	public void contextLoads() {
 		
-		
+		System.out.println("az");
 // 		
 		
 		
